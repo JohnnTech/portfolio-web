@@ -1,4 +1,5 @@
 import './header';
+import React from "react";
 
 function Header(){
     return(
@@ -6,8 +7,8 @@ function Header(){
             <h3>
                 <p>I <span>'</span>m</p>
                 John
-                <h2>Professor de Desenvolvimento Web</h2>
             </h3>
+            <h2>Professor de Desenvolvimento Web</h2>
         </div>
     );
 }
