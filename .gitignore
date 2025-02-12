@@ -1,0 +1,26 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar arquivos de ambiente (variáveis de ambiente)
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar pastas de build/dist
+dist/
+build/
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de cache
+.cache/
