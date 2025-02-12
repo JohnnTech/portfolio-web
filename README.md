@@ -1,2 +1,2 @@
-# portifolio-web
-Meu portifólio web
+# portfolio-web
+Meu portfólio web
