@@ -1,4 +1,4 @@
-import './header';
+import './Header';
 import React from "react";
 
 function Header(){
