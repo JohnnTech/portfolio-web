@@ -1,5 +1,5 @@
 import './Home.css';
-import img from '../../../assets/props/img2.jpg';
+import img from '../../assets/props/img2.jpg';
 import Buttons from '../button/Button';
 import { BsMouse } from 'react-icons/bs';
 
