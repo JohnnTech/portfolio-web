@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Navbar from './components/nav/Nav';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer'
+import About from './components/about/About'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Navbar />
       <Home />
+      <About />
       <Footer />
     </div>
   );
