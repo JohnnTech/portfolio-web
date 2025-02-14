@@ -1,4 +1,4 @@
-// import './styles/global.css';
+import './global.css';
 import Header from './components/header/Header';
 import Navbar from './components/nav/Nav';
 import Home from './components/home/Home';
@@ -7,9 +7,12 @@ import About from './components/about/About'
 import Contact from './components/contact/Contact';
 import Members from './components/members/Members';
 
-function App() {
+function WebContent() {
   return (
-    <div className="App">
+    <>
+      <div className="bg-circle1"></div>
+      <div className="bg-circle2"></div>
+      
       <Header />
       <Navbar />
       <Home />
@@ -17,8 +20,7 @@ function App() {
       <Members />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App;
+export default WebContent;
