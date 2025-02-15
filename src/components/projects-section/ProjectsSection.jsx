@@ -1,5 +1,6 @@
 import React from 'react';
-import ProjectCard from './components/project-card/ProjectCard';
+import './ProjectsSection.css'
+import ProjectCard from './../project-card/ProjectCard';
 
 const ProjectsSection = ({ title, projects }) => {
   return (

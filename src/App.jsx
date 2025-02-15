@@ -20,9 +20,11 @@ function WebContent() {
       <Navbar />
       <Home />
       <About />
-      <h1>Meus Projetos</h1>
-      <ProjectsSection title="Projetos Pessoais" projects={personalProjects} />
-      <ProjectsSection title="Projetos de Estudantes" projects={studentProjects} />
+      <div id="projects-title">
+        <ProjectsSection title="Projetos Pessoais" projects={personalProjects} />
+        <ProjectsSection title="Projetos de Estudantes" projects={studentProjects} />
+      </div>
+
       <Contact />
       <Footer />
     </>

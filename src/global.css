@@ -83,6 +83,9 @@ body::after {
   justify-content: center;
   align-items: center;
 }
+#projects-title{
+  text-align: center;
+}
 
 @media (max-width: 500px) {
   .container {

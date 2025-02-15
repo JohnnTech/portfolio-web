@@ -46,9 +46,6 @@ function Navbar() {
       <a href="#projects">
         <TiGroupOutline className="icon" />
       </a>
-      <a href="#projects_estudantis">
-        <TiGroupOutline className="icon" />
-      </a>
       <a href="#contact">
         <BiMessageRoundedDots className="icon" />
       </a>

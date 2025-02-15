@@ -1,0 +1,53 @@
+/* Estilos da seção de projetos */
+.projects-section {
+    padding: 4rem 0; /* Espaçamento interno superior/inferior */
+    background-color: #f8f9fa; /* Cor de fundo opcional */
+  }
+  
+  .projects-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Cor do título */
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Linha decorativa abaixo do título */
+  .projects-section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #007bff; /* Cor da linha */
+    margin: 0.5rem auto;
+  }
+  
+  /* Container da lista de projetos */
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 1.5rem; /* Espaçamento lateral */
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .projects-section {
+      padding: 2rem 0;
+    }
+  
+    .projects-section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .projects-list {
+      grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+      padding: 0 1rem;
+    }
+  }
+
+    
