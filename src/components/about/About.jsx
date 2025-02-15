@@ -1,5 +1,4 @@
 import "./About.css";
-import Qualifications from "../qualifications/Qualifications";
 
 function About() {
   return (
