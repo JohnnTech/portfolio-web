@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProjectCard = ({ title, description, imageUrl, projectUrl }) => {
   return (
-    <div id="projects" className="project-card">
+    <div className="project-card">
       <img src={imageUrl} alt={title} className="project-image" />
       <div className="project-content">
         <h3 className="project-title">{title}</h3>

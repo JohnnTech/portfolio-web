@@ -85,6 +85,9 @@ body::after {
 }
 #projects-title{
   text-align: center;
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 50px;
 }
 
 @media (max-width: 500px) {

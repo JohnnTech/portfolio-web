@@ -2,11 +2,13 @@ import React, { useEffect } from "react";
 import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { TiGroupOutline } from "react-icons/ti";
+// import { GoProjectSymlink } from "react-icons/go";
+import { CgWebsite } from "react-icons/cg";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 function Navbar() {
+  
   // Adiciona event listeners após o componente ser montado
   useEffect(() => {
     const icons = document.querySelectorAll('.navigation .icon');
@@ -34,7 +36,7 @@ function Navbar() {
       });
     };
   }, []); // O array vazio garante que o useEffect só roda uma vez (montagem/desmontagem)
-
+  
   return (
     <div className="navigation">
       <a href="#home">
@@ -43,8 +45,8 @@ function Navbar() {
       <a href="#about">
         <AiOutlineUser className="icon" />
       </a>
-      <a href="#projects">
-        <TiGroupOutline className="icon" />
+      <a href="#projects-title">
+        <CgWebsite className="icon" />
       </a>
       <a href="#contact">
         <BiMessageRoundedDots className="icon" />
